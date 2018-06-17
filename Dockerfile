@@ -1,6 +1,6 @@
 FROM lsioarmhf/plex
 
-LABEL dimakuz/plex-subzero-armhf
+LABEL image=dimakuz/plex-subzero-armhf
 MAINTAINER Dima Kuznetsov "dmitrykuzn@gmail.com"
 
 RUN apt update && apt install -y unzip
